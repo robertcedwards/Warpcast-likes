@@ -1,0 +1,22 @@
+{
+  "name": "warpcast-likes-fetcher",
+  "version": "1.0.0",
+  "description": "Fetches and processes likes from Warpcast URLs using the Neynar and Airstack APIs.",
+  "main": "processFIDs.js",
+  "scripts": {
+    "start": "node processFIDs.js"
+  },
+  "keywords": [
+    "warpcast",
+    "likes",
+    "fetcher",
+    "neynar",
+    "airstack"
+  ],
+  "author": "0xHashbrown",
+  "license": "ISC",
+  "dependencies": {
+    "@airstack/node": "^0.0.5",
+    "dotenv": "^10.0.0"
+  }
+}
